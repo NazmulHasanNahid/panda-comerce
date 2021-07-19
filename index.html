@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Panda comerce</title>
+    custom style
     <link rel="stylesheet" href="css/style.css" />
     <!-- Bootsrap stylesheet -->
     <link
@@ -17,8 +18,8 @@
   </head>
   <body>
     <!-- nav bar  -->
-    <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <header id="header">
+      <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
         <div class="container">
           <a class="navbar-brand" href="#">
             <img src="images/logo.png" alt="" />
@@ -37,16 +38,16 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="#header">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Shoes</a>
+                <a class="nav-link" href="#shoes">Shoes</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Backpack</a>
+                <a class="nav-link" href="#backpack">Backpack</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Subscribe</a>
+                <a class="nav-link" href="#subscribe">Subscribe</a>
               </li>
             </ul>
           </div>
@@ -62,7 +63,7 @@
           <div class="carousel-inner">
             <div class="carousel-item active">
               <div
-                class="row bg-info bg-gradient p-5 d-flex align-items-center"
+                class="row panda-bg-info bg-gradient p-5 d-flex align-items-center"
               >
                 <div class="col-lg-7">
                   <h1>Cool Dude Headphone</h1>
@@ -71,7 +72,7 @@
                     want to waste time in front of funky world
                   </p>
                   <h1>$420</h1>
-                  <button class="btn btn-warning">Buy Now</button>
+                  <button class="buy-button">Buy Now</button>
                 </div>
                 <div class="col-lg-5">
                   <img
@@ -84,7 +85,7 @@
             </div>
             <div class="carousel-item">
               <div
-                class="row bg-info bg-gradient p-5 d-flex align-items-center"
+                class="row panda-bg-info bg-gradient p-5 d-flex align-items-center"
               >
                 <div class="col-lg-7">
                   <h1>Mega LCD TV for Sports</h1>
@@ -93,7 +94,7 @@
                     waste time in front of funky world
                   </p>
                   <h1>$720</h1>
-                  <button class="btn btn-warning">Buy Now</button>
+                  <button class="buy-button">Buy Now</button>
                 </div>
                 <div class="col-lg-5">
                   <img
@@ -106,7 +107,7 @@
             </div>
             <div class="carousel-item">
               <div
-                class="row bg-info bg-gradient p-5 d-flex align-items-center"
+                class="row panda-bg-info bg-gradient p-5 d-flex align-items-center"
               >
                 <div class="col-lg-7">
                   <h1>X-box for Your Living Room</h1>
@@ -115,7 +116,7 @@
                     to waste time in front of funky world
                   </p>
                   <h1>$920</h1>
-                  <button class="btn btn-warning">Buy Now</button>
+                  <button class="buy-button">Buy Now</button>
                 </div>
                 <div class="col-lg-5">
                   <img
@@ -156,15 +157,7 @@
           <div class="col-lg-4 col-md-6 col-12">
             <div
               class="
-                p-3
-                border
-                bg-warning
-                d-flex
-                align-items-center
-                justify-content-between
-                rounded-3
-              "
-            >
+                p-3 border bg-warning d-flex align-items-center justify-content-between rounded-3">
               <h1 class="text-white">Watch</h1>
               <img width="100px" src="images/categories/watch.png" alt="" />
             </div>
@@ -172,13 +165,7 @@
           <div class="col-lg-4 col-md-6 col-12">
             <div
               class="
-                p-3
-                border
-                bg-success
-                d-flex
-                align-items-center
-                justify-content-between
-                rounded-3
+                p-3  border bg-success  d-flex align-items-center justify-content-between rounded-3
               "
             >
               <h1 class="text-white">Shoes</h1>
@@ -188,13 +175,7 @@
           <div class="col-lg-4 col-md-6 col-12">
             <div
               class="
-                p-3
-                border
-                bg-primary
-                d-flex
-                align-items-center
-                justify-content-between
-                rounded-3
+                p-3 border bg-primary d-flex align-items-center justify-content-between rounded-3
               "
             >
               <h1 class="text-white">Backpack</h1>
@@ -204,16 +185,13 @@
         </div>
       </section>
       <!-- shoes item -->
-      <section class="container">
+      <section class="container" id="shoes">
         <h2>Shoes</h2>
         <div class="row row-cols-1 row-cols-md-3 g-4">
           <div class="col">
             <div class="card border-0 shadow-lg h-100">
               <img
-                src="images/shoes/shoe-1.png"
-                class="card-img-top"
-                alt="..."
-              />
+                src="images/shoes/shoe-1.png" class="card-img-top" alt="..." />
               <div class="card-body">
                 <h5 class="card-title">Supply 350</h5>
                 <p class="card-text">
@@ -222,20 +200,17 @@
                   longer.
                 </p>
               </div>
-              
+
               <div class="m-3">
                 <h2>330$</h2>
-                <button class="btn btn-warning">Buy Now</button>
+                <button class="buy-button">Buy Now</button>
               </div>
             </div>
           </div>
           <div class="col">
             <div class="card border-0 shadow-lg h-100">
               <img
-                src="images/shoes/shoe-2.png"
-                class="card-img-top"
-                alt="..."
-              />
+                src="images/shoes/shoe-2.png" class="card-img-top" alt="..." />
               <div class="card-body">
                 <h5 class="card-title">Nike 360</h5>
                 <p class="card-text">
@@ -245,7 +220,7 @@
               </div>
               <div class="m-3">
                 <h2>230$</h2>
-                <button class="btn btn-warning">Buy Now</button>
+                <button class="buy-button">Buy Now</button>
               </div>
             </div>
           </div>
@@ -266,14 +241,14 @@
               </div>
               <div class="m-3">
                 <h2>430$</h2>
-                <button class="btn btn-warning">Buy Now</button>
+                <button class="buy-button">Buy Now</button>
               </div>
             </div>
           </div>
         </div>
       </section>
       <!-- bags -->
-      <section class="container my-5">
+      <section class="container my-5" id="backpack">
         <h2>Backpack</h2>
         <div class="row row-cols-1 row-cols-md-3 g-4">
           <div class="col">
@@ -289,7 +264,7 @@
               </div>
               <div class="m-3">
                 <h2>130$</h2>
-                <button class="btn btn-warning">Buy Now</button>
+                <button class="buy-button">Buy Now</button>
               </div>
             </div>
           </div>
@@ -305,7 +280,7 @@
               </div>
               <div class="m-3">
                 <h2>170$</h2>
-                <button class="btn btn-warning">Buy Now</button>
+                <button class="buy-button">Buy Now</button>
               </div>
             </div>
           </div>
@@ -322,24 +297,28 @@
               </div>
               <div class="m-3">
                 <h2>190$</h2>
-                <button class="btn btn-warning">Buy Now</button>
+                <button class="buy-button">Buy Now</button>
               </div>
             </div>
           </div>
         </div>
       </section>
       <!-- Subscribe -->
-      <section style="height: 300px;" class="container  bg-info d-flex justify-content-center align-items-center rounded-3">
+      <section style="height: 300px" id="subscribe" class="container  panda-bg-info d-flex justify-content-center align-items-center  rounded-3">
         <div>
-        <h1>LET'S STAY IN TOUCH</h1>
-        <p>Get updates on sales, specials and more</p>
-        <input type="email" placeholder="Your Email"><br>
-        <button class="btn btn-warning">Submit</button>
+          <h1>LET'S STAY IN TOUCH</h1>
+          <p>Get updates on sales, specials and more</p>
+          <input class="form-control" type="email" placeholder="Your Email" /><br />
+          <button class="buy-button">Submit</button>
         </div>
       </section>
     </main>
     <footer class="mt-5 text-center">
-      <p><small>©2025. Panda Commerce. All rights reserved. Sofia, Bulgaria.</small></p>
+      <p>
+        <small
+          >©2025. Panda Commerce. All rights reserved. Sofia, Bulgaria.</small
+        >
+      </p>
     </footer>
 
     <!-- Bootsrap script -->

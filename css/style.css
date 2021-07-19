@@ -1,0 +1,13 @@
+.panda-bg-info{
+ background-color:#e6c3e6;
+}
+.buy-button{
+  background-image:linear-gradient( orange,tomato);
+  font-weight: 700;
+  color: white;
+  padding: 9px 25px;
+  border-radius: 8px;
+  border:none;
+  
+  
+}
